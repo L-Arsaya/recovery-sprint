@@ -1,24 +1,14 @@
 
-# Recovery Sprint (Vite + React)
+# Recovery Sprint (FP Holds + CES Protection)
+- FP-style **time-under-tension holds** (Leverking lower-body focus)
+- CES **core prep & effort-on-exhale** reminders
+- Optional **MFR pack**
+- **PWA** (offline) + **Dark mode**
 
-A lightweight, trainer-in-your-pocket web app. Set your day (Good/Okay/Flare), record rib/elbow/knee/fatigue, follow the auto-adjusted stack, and tick items done.
+## Deploy (Vercel via GitHub)
+1) Create a GitHub repo and upload this folder's contents.
+2) In Vercel: New Project → Import Git Repository → Deploy (Framework: Vite, Output: `dist`).
 
-## Deploy to Vercel
-
-1. Create a new GitHub repo and upload this folder's files.
-2. In Vercel: **New Project → Import Git Repository → Select your repo → Deploy**.
-3. Vercel will auto-detect Vite and build with `npm i && npm run build`.
-
-## Local run
-
-```bash
+## Run locally
 npm i
 npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
