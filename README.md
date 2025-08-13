@@ -1,14 +1,15 @@
 
-# Recovery Sprint (FP Holds + CES Protection)
-- FP-style **time-under-tension holds** (Leverking lower-body focus)
-- CES **core prep & effort-on-exhale** reminders
-- Optional **MFR pack**
-- **PWA** (offline) + **Dark mode**
+# Recovery Sprint v1.1 (FP holds + CES)
+- Read-only daily stack with **How to / cues** modals
+- **Dark mode** toggle in header
+- **PWA** offline support
+- Simple mobile-first week view
+- Advanced **Edit plan** panel (optional)
 
-## Deploy (Vercel via GitHub)
-1) Create a GitHub repo and upload this folder's contents.
+## Deploy (Vercel)
+1) Create a GitHub repo (or use existing) and upload this folder's contents.
 2) In Vercel: New Project → Import Git Repository → Deploy (Framework: Vite, Output: `dist`).
 
-## Run locally
+## Local
 npm i
 npm run dev
